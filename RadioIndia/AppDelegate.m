@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @implementation AppDelegate
 
@@ -14,8 +16,14 @@
 {
     [Parse setApplicationId:@"0CGZP6AznVgMrmS7tBRGu9JmYWE3UrEzlhiVSoJK"
                   clientKey:@"GTwVN1KMd8FxI6GTJoAhWDcTi9omMUapdouJlKmf"];
+    
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
+    NSError *setCategoryErr = nil;
+    NSError *activationErr  = nil;
+    [[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error:&setCategoryErr];
+    [[AVAudioSession sharedInstance] setActive:YES error:&activationErr];
+
     return YES;
 }
 							

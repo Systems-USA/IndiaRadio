@@ -44,7 +44,7 @@
      [query whereKey:@"Service" containsString:_service];
      [query whereKey:@"Type" containsString:_type];*/
     if ([self.objects count] == 0) {
-        query.cachePolicy = kPFCachePolicyCacheElseNetwork;
+        query.cachePolicy = kPFCachePolicyNetworkElseCache;
     }
     [query orderByAscending:@"city"];
     return query;
@@ -88,6 +88,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.navigationController.navigationBar setBarTintColor:[UIColor orangeColor]];
+    [self.navigationController.navigationBar setTranslucent:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,27 +7,18 @@
 //
 
 #import "Station.h"
+#import "MBProgressHUD.h"
 
 @implementation Station
 
-/*-(id)initWithName:(NSString *)name City:(NSString *)city Url:(NSString*)url ImageFile:(PFFile*)imageFile
+-(id)initWithName:(NSString *)name City:(NSString *)city Url:(NSString*)url Genre:(NSString*)genre
 {
     self = [super init];
     if (self) {
         self.name = name;
         self.city = city;
-        self.player = [[AVPlayer alloc] initWithURL:[NSURL URLWithString:url]];
-        self.imageFile = imageFile;
-    }
-    return self;
-}*/
-
--(id)initWithName:(NSString *)name City:(NSString *)city Url:(NSString*)url
-{
-    self = [super init];
-    if (self) {
-        self.name = name;
-        self.city = city;
+        self.url = url;
+        self.genre = genre;
         self.player = [[AVPlayer alloc] initWithURL:[NSURL URLWithString:url]];
     }
     return self;
@@ -41,6 +32,21 @@
 -(void)pauseStation
 {
     [self.player pause];
+}
+
+-(void)Volume:(float *)valueToChange{
+    
+    [self.player setVolume:*valueToChange];
+}
+
+-(BOOL)isCurrentlyPlaying
+{
+    BOOL playing = NO;
+    if ([self.player rate] != 0.0)
+    {
+        playing = YES;
+    }
+    return playing;
 }
 
 @end

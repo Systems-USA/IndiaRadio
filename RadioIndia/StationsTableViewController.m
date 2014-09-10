@@ -15,10 +15,11 @@
 @interface StationsTableViewController ()
 
 @property StationList * stationList;
-
+@property NSMutableArray *arraForStation;
 @end
 
 @implementation StationsTableViewController
+
 
 -  (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
@@ -48,7 +49,8 @@
     [query whereKey:@"Service" containsString:_service];
     [query whereKey:@"Type" containsString:_type];*/
     if ([self.objects count] == 0) {
-        query.cachePolicy = kPFCachePolicyCacheElseNetwork;
+        query.cachePolicy = kPFCachePolicyNetworkElseCache;      
+        
     }
     [query orderByAscending:@"name"];
     return query;
@@ -57,46 +59,72 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object {
     static NSString *CellIdentifier = @"StationCell";
     
+   // NSLog(@"objetos %@",object);
+    
     StationCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[StationCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
-    //Station* station = [[Station alloc] initWithName:[object objectForKey:@"name"] City:[object objectForKey:@"city"] Url:[object objectForKey:@"url"] ImageFile:[object objectForKey:@"image"]];
     
-    Station* station = [[Station alloc] initWithName:[object objectForKey:@"name"] City:[object objectForKey:@"city"] Url:[object objectForKey:@"url"]];
+    Station* station = [[Station alloc] initWithName:[object objectForKey:@"name"] City:[object objectForKey:@"city"] Url:[object objectForKey:@"url"] Genre:[object objectForKey:@"genre"]];
     
     // Configure the cell
     cell.lblName.text = station.name;
+    [self.arraForStation addObject:station];
     cell.lblCity.text = station.city;
     //cell.imgImage.image = [UIImage imageNamed:@"cities.png"];
-    //cell.imgImage.file = station.imageFile;
-    //[cell.imgImage loadInBackground];
-    
+
+    Station *estacion=[[Station alloc]init];
+    estacion= [self.arraForStation objectAtIndex:indexPath.row];
+   
     //Add station to StationList
     [self.stationList addStation:station];
+    
     
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+   
     [self performSegueWithIdentifier:@"stationsSegue" sender:self];
+    
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSIndexPath * selectedRow = [self.tableView indexPathForSelectedRow];
     PlayerViewController * destinationViewController = segue.destinationViewController;
     
-    self.stationList.selectedStation = selectedRow.row;
+ //   NSLog(@"array con stations %@",[[self.arraForStation objectAtIndex:0]name ]);
+    NSIndexPath * selectedRow = [self.tableView indexPathForSelectedRow];
+    destinationViewController.arraystationList=self.arraForStation;
+    self.stationList.selectedStation = (int)selectedRow.row;
+   // NSLog(@"station%d,",self.stationList.selectedStation);
     destinationViewController.stationList = self.stationList;
+    destinationViewController.arrayForFacebook=[NSMutableArray arrayWithArray:self.arraForStation];
+    
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController.navigationBar setBarTintColor:[UIColor orangeColor]];
+    [self.navigationController.navigationBar setTranslucent:YES];
+    
+    
+    self.arraForStation=[[NSMutableArray alloc]init];
     self.stationList = [[StationList alloc] init];
+    
+
+
+     [self loadObjects];
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    
+   // NSLog(@" estacion %@",self.stationList.stations);
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -104,5 +132,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

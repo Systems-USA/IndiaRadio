@@ -11,5 +11,6 @@
 @interface CityStationsTableViewController : PFQueryTableViewController
 
 @property NSString * city;
+@property NSMutableArray *arraForStation;
 
 @end

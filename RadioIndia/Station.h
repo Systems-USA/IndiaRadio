@@ -13,11 +13,15 @@
 
 @property (nonatomic,strong) NSString * name;
 @property (nonatomic,strong) NSString * city;
-//@property (nonatomic,strong) PFFile * imageFile;
+@property (nonatomic,strong) NSString * genre;
+@property (nonatomic,strong) NSString * url;
 @property (nonatomic,strong) AVPlayer * player;
+@property (nonatomic,strong) NSNumber *volume;
 
-//-(id)initWithName:(NSString *)name City:(NSString *)city Url:(NSString*)url ImageFile:(PFFile*)imageFile;
-
--(id)initWithName:(NSString *)name City:(NSString *)city Url:(NSString*)url;
+-(id)initWithName:(NSString *)name City:(NSString *)city Url:(NSString*)url Genre:(NSString*)genre;
+-(void)playStation;
+-(void)pauseStation;
+-(BOOL)isCurrentlyPlaying;
+-(void)Volume:(float *)valueToChange;
 
 @end
