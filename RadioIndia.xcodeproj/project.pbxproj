@@ -52,12 +52,22 @@
 		79F7FD7119285F8F002A3DEA /* StationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7FD7019285F8F002A3DEA /* StationsTableViewController.m */; };
 		79FE32B019395D18007ABFDC /* GenreStationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FE32AF19395D18007ABFDC /* GenreStationsTableViewController.m */; };
 		79FE32B319395D78007ABFDC /* GenreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FE32B219395D78007ABFDC /* GenreCell.m */; };
+		BE31A08619C8A6A800A29758 /* backorange.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08119C8A6A800A29758 /* backorange.png */; };
+		BE31A08719C8A6A800A29758 /* backorangeborders.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08219C8A6A800A29758 /* backorangeborders.png */; };
+		BE31A08819C8A6A800A29758 /* forwardorangeborders copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08319C8A6A800A29758 /* forwardorangeborders copy.png */; };
+		BE31A08919C8A6A800A29758 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08419C8A6A800A29758 /* pauseButton.png */; };
+		BE31A08C19C8A82B00A29758 /* share orangeborder.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08B19C8A82B00A29758 /* share orangeborder.png */; };
+		BE31A09119C8B98400A29758 /* fullSoundorange.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08D19C8B98400A29758 /* fullSoundorange.png */; };
+		BE31A09219C8B98400A29758 /* lowSoundorange.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08E19C8B98400A29758 /* lowSoundorange.png */; };
+		BE31A09319C8B98400A29758 /* mediumSoundorange.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A08F19C8B98400A29758 /* mediumSoundorange.png */; };
+		BE31A09619C8BB8D00A29758 /* NoSoundorange.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A09519C8BB8D00A29758 /* NoSoundorange.png */; };
+		BE31A09819C8BCED00A29758 /* playorange.png in Resources */ = {isa = PBXBuildFile; fileRef = BE31A09719C8BCED00A29758 /* playorange.png */; };
 		BE33523019BE1727006ABF84 /* fast_back.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522819BE1727006ABF84 /* fast_back.png */; };
 		BE33523119BE1727006ABF84 /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522919BE1727006ABF84 /* nextButton.png */; };
 		BE33523219BE1727006ABF84 /* noMuteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522A19BE1727006ABF84 /* noMuteButton.png */; };
 		BE33523319BE1727006ABF84 /* noMuteButton30.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522B19BE1727006ABF84 /* noMuteButton30.png */; };
 		BE33523419BE1727006ABF84 /* noMuteButton50.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522C19BE1727006ABF84 /* noMuteButton50.png */; };
-		BE33523619BE1727006ABF84 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522E19BE1727006ABF84 /* pauseButton.png */; };
+		BE33523619BE1727006ABF84 /* pauseButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522E19BE1727006ABF84 /* pauseButton4.png */; };
 		BE33523719BE1727006ABF84 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33522F19BE1727006ABF84 /* playButton.png */; };
 		BE33523919BE18D9006ABF84 /* muteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33523819BE18D9006ABF84 /* muteButton.png */; };
 		BE33523B19BE1B22006ABF84 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = BE33523A19BE1B22006ABF84 /* favorite.png */; };
@@ -73,6 +83,10 @@
 		BE77E5DF19B0DDBF00F5F147 /* pauseButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE77E5DE19B0DDBF00F5F147 /* pauseButton2.png */; };
 		BE77E5E119B0DF6800F5F147 /* playButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE77E5E019B0DF6800F5F147 /* playButton2.png */; };
 		BE800A5D19A68481007DF0FE /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = BE800A5C19A68481007DF0FE /* share.png */; };
+		BE88490C19C8D44300D71202 /* share orange copia.png in Resources */ = {isa = PBXBuildFile; fileRef = BE88490B19C8D44300D71202 /* share orange copia.png */; };
+		BE88490F19C8DAD600D71202 /* backgreenborders.png in Resources */ = {isa = PBXBuildFile; fileRef = BE88490D19C8DAD600D71202 /* backgreenborders.png */; };
+		BE88491019C8DAD600D71202 /* forwardgreenborders.png in Resources */ = {isa = PBXBuildFile; fileRef = BE88490E19C8DAD600D71202 /* forwardgreenborders.png */; };
+		BEB1FA8819C2425400CB2043 /* favoriteIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB1FA8719C2425400CB2043 /* favoriteIcon1.png */; };
 		BEDF28C619A53C8700123702 /* noMuteButton302.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF28C419A53C8700123702 /* noMuteButton302.png */; };
 		BEDF28C719A53C8700123702 /* noMuteButton502.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF28C519A53C8700123702 /* noMuteButton502.png */; };
 /* End PBXBuildFile section */
@@ -150,12 +164,22 @@
 		79FE32AF19395D18007ABFDC /* GenreStationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenreStationsTableViewController.m; sourceTree = "<group>"; };
 		79FE32B119395D78007ABFDC /* GenreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenreCell.h; sourceTree = "<group>"; };
 		79FE32B219395D78007ABFDC /* GenreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenreCell.m; sourceTree = "<group>"; };
+		BE31A08119C8A6A800A29758 /* backorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backorange.png; sourceTree = "<group>"; };
+		BE31A08219C8A6A800A29758 /* backorangeborders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backorangeborders.png; sourceTree = "<group>"; };
+		BE31A08319C8A6A800A29758 /* forwardorangeborders copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardorangeborders copy.png"; sourceTree = "<group>"; };
+		BE31A08419C8A6A800A29758 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		BE31A08B19C8A82B00A29758 /* share orangeborder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share orangeborder.png"; sourceTree = "<group>"; };
+		BE31A08D19C8B98400A29758 /* fullSoundorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullSoundorange.png; sourceTree = "<group>"; };
+		BE31A08E19C8B98400A29758 /* lowSoundorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lowSoundorange.png; sourceTree = "<group>"; };
+		BE31A08F19C8B98400A29758 /* mediumSoundorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mediumSoundorange.png; sourceTree = "<group>"; };
+		BE31A09519C8BB8D00A29758 /* NoSoundorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoSoundorange.png; sourceTree = "<group>"; };
+		BE31A09719C8BCED00A29758 /* playorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playorange.png; sourceTree = "<group>"; };
 		BE33522819BE1727006ABF84 /* fast_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fast_back.png; sourceTree = "<group>"; };
 		BE33522919BE1727006ABF84 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
 		BE33522A19BE1727006ABF84 /* noMuteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMuteButton.png; sourceTree = "<group>"; };
 		BE33522B19BE1727006ABF84 /* noMuteButton30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMuteButton30.png; sourceTree = "<group>"; };
 		BE33522C19BE1727006ABF84 /* noMuteButton50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMuteButton50.png; sourceTree = "<group>"; };
-		BE33522E19BE1727006ABF84 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		BE33522E19BE1727006ABF84 /* pauseButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton4.png; sourceTree = "<group>"; };
 		BE33522F19BE1727006ABF84 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
 		BE33523819BE18D9006ABF84 /* muteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muteButton.png; sourceTree = "<group>"; };
 		BE33523A19BE1B22006ABF84 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
@@ -174,6 +198,10 @@
 		BE77E5DE19B0DDBF00F5F147 /* pauseButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton2.png; sourceTree = "<group>"; };
 		BE77E5E019B0DF6800F5F147 /* playButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton2.png; sourceTree = "<group>"; };
 		BE800A5C19A68481007DF0FE /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		BE88490B19C8D44300D71202 /* share orange copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share orange copia.png"; sourceTree = "<group>"; };
+		BE88490D19C8DAD600D71202 /* backgreenborders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgreenborders.png; sourceTree = "<group>"; };
+		BE88490E19C8DAD600D71202 /* forwardgreenborders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardgreenborders.png; sourceTree = "<group>"; };
+		BEB1FA8719C2425400CB2043 /* favoriteIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favoriteIcon1.png; sourceTree = "<group>"; };
 		BEDF28C419A53C8700123702 /* noMuteButton302.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMuteButton302.png; sourceTree = "<group>"; };
 		BEDF28C519A53C8700123702 /* noMuteButton502.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMuteButton502.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -247,13 +275,14 @@
 		796004D5192AA31300EAE4B2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BEB1FA8719C2425400CB2043 /* favoriteIcon1.png */,
 				BE33524419BE35B5006ABF84 /* ios7-gray-dots-iphone-hd-wallpaper-iphonewallpaperhi.com-625-320x480.jpg */,
 				BE33524019BE311B006ABF84 /* dots-orange.png */,
 				BE33523E19BE21FB006ABF84 /* bg2.jpg */,
 				BE33523C19BE1CDB006ABF84 /* share1.png */,
 				BE33522819BE1727006ABF84 /* fast_back.png */,
 				BE33522919BE1727006ABF84 /* nextButton.png */,
-				BE33522E19BE1727006ABF84 /* pauseButton.png */,
+				BE33522E19BE1727006ABF84 /* pauseButton4.png */,
 				BE33522F19BE1727006ABF84 /* playButton.png */,
 				BE77E5E019B0DF6800F5F147 /* playButton2.png */,
 				BE77E5DE19B0DDBF00F5F147 /* pauseButton2.png */,
@@ -296,6 +325,7 @@
 		79F7FD0B19284A0F002A3DEA = {
 			isa = PBXGroup;
 			children = (
+				BE31A06E19C88E2500A29758 /* interfaceImages */,
 				79F7FD1D19284A0F002A3DEA /* RadioIndia */,
 				79F7FD3C19284A0F002A3DEA /* RadioIndiaTests */,
 				79F7FD1619284A0F002A3DEA /* Frameworks */,
@@ -408,6 +438,34 @@
 			name = Stations;
 			sourceTree = "<group>";
 		};
+		BE31A06E19C88E2500A29758 /* interfaceImages */ = {
+			isa = PBXGroup;
+			children = (
+				BE88490D19C8DAD600D71202 /* backgreenborders.png */,
+				BE88490E19C8DAD600D71202 /* forwardgreenborders.png */,
+				BE88490B19C8D44300D71202 /* share orange copia.png */,
+				BE31A09719C8BCED00A29758 /* playorange.png */,
+				BE31A08B19C8A82B00A29758 /* share orangeborder.png */,
+				BE31A08119C8A6A800A29758 /* backorange.png */,
+				BE31A08219C8A6A800A29758 /* backorangeborders.png */,
+				BE31A08319C8A6A800A29758 /* forwardorangeborders copy.png */,
+				BE31A08419C8A6A800A29758 /* pauseButton.png */,
+				BE31A08019C8A68F00A29758 /* Volume images */,
+			);
+			name = interfaceImages;
+			sourceTree = "<group>";
+		};
+		BE31A08019C8A68F00A29758 /* Volume images */ = {
+			isa = PBXGroup;
+			children = (
+				BE31A09519C8BB8D00A29758 /* NoSoundorange.png */,
+				BE31A08D19C8B98400A29758 /* fullSoundorange.png */,
+				BE31A08E19C8B98400A29758 /* lowSoundorange.png */,
+				BE31A08F19C8B98400A29758 /* mediumSoundorange.png */,
+			);
+			name = "Volume images";
+			sourceTree = "<group>";
+		};
 		BE584AE919A799C800CAB287 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,6 +527,7 @@
 				ORGANIZATIONNAME = "Systems USA";
 				TargetAttributes = {
 					79F7FD1319284A0F002A3DEA = {
+						DevelopmentTeam = FWKQLUDXCG;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -512,26 +571,37 @@
 				79F7FD6A19285C7A002A3DEA /* cities@2x.png in Resources */,
 				79F7FD5C192859BD002A3DEA /* stations.png in Resources */,
 				79C67C92193D5C8E0013DF61 /* noMuteButton2.png in Resources */,
+				BE31A09119C8B98400A29758 /* fullSoundorange.png in Resources */,
 				79F7FD3019284A0F002A3DEA /* Images.xcassets in Resources */,
 				BE33523219BE1727006ABF84 /* noMuteButton.png in Resources */,
+				BE31A08919C8A6A800A29758 /* pauseButton.png in Resources */,
+				BE88491019C8DAD600D71202 /* forwardgreenborders.png in Resources */,
 				79F7FD6919285C7A002A3DEA /* cities.png in Resources */,
 				796004D4192AA2A100EAE4B2 /* favoriteIcon.png in Resources */,
 				BE33523F19BE21FB006ABF84 /* bg2.jpg in Resources */,
 				BE33523B19BE1B22006ABF84 /* favorite.png in Resources */,
 				79F7FD5D192859BD002A3DEA /* stations@2x.png in Resources */,
+				BE31A09319C8B98400A29758 /* mediumSoundorange.png in Resources */,
 				BE33524519BE35B5006ABF84 /* ios7-gray-dots-iphone-hd-wallpaper-iphonewallpaperhi.com-625-320x480.jpg in Resources */,
 				BEDF28C719A53C8700123702 /* noMuteButton502.png in Resources */,
+				BE31A09619C8BB8D00A29758 /* NoSoundorange.png in Resources */,
+				BE31A08619C8A6A800A29758 /* backorange.png in Resources */,
 				79C3A6C3192CFE1500C16FE7 /* favorites.png in Resources */,
-				BE33523619BE1727006ABF84 /* pauseButton.png in Resources */,
+				BEB1FA8819C2425400CB2043 /* favoriteIcon1.png in Resources */,
+				BE33523619BE1727006ABF84 /* pauseButton4.png in Resources */,
 				79C67C94193D5E650013DF61 /* nextButton1.png in Resources */,
 				79F7FD2219284A0F002A3DEA /* InfoPlist.strings in Resources */,
+				BE31A09819C8BCED00A29758 /* playorange.png in Resources */,
 				79F7FD6E19285CA0002A3DEA /* settings.png in Resources */,
 				79F7FD6619285B3D002A3DEA /* genre@2x.png in Resources */,
 				BE33523D19BE1CDB006ABF84 /* share1.png in Resources */,
+				BE31A08819C8A6A800A29758 /* forwardorangeborders copy.png in Resources */,
 				BE33523919BE18D9006ABF84 /* muteButton.png in Resources */,
 				79F7FD6D19285CA0002A3DEA /* settings@2x.png in Resources */,
+				BE88490F19C8DAD600D71202 /* backgreenborders.png in Resources */,
 				79F7FD6519285B3D002A3DEA /* genre.png in Resources */,
 				BE77E5DF19B0DDBF00F5F147 /* pauseButton2.png in Resources */,
+				BE31A08719C8A6A800A29758 /* backorangeborders.png in Resources */,
 				BE33523119BE1727006ABF84 /* nextButton.png in Resources */,
 				BE33523319BE1727006ABF84 /* noMuteButton30.png in Resources */,
 				BE77E5DA19B0DB6700F5F147 /* nextButton2.png in Resources */,
@@ -541,9 +611,12 @@
 				BE77E5E119B0DF6800F5F147 /* playButton2.png in Resources */,
 				BE33523019BE1727006ABF84 /* fast_back.png in Resources */,
 				79F7FD2B19284A0F002A3DEA /* Main.storyboard in Resources */,
+				BE31A09219C8B98400A29758 /* lowSoundorange.png in Resources */,
+				BE88490C19C8D44300D71202 /* share orange copia.png in Resources */,
 				BE33523419BE1727006ABF84 /* noMuteButton50.png in Resources */,
 				BE77E5DD19B0DC4200F5F147 /* fast_back2.png in Resources */,
 				BE800A5D19A68481007DF0FE /* share.png in Resources */,
+				BE31A08C19C8A82B00A29758 /* share orangeborder.png in Resources */,
 				BE33524119BE311B006ABF84 /* dots-orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -704,6 +777,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -713,6 +788,7 @@
 				INFOPLIST_FILE = "RadioIndia/RadioIndia-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -722,6 +798,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -731,6 +809,7 @@
 				INFOPLIST_FILE = "RadioIndia/RadioIndia-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

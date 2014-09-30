@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
     stationLabel.text=[[self.arrayForFacebook objectAtIndex:self.stationList.selectedStation]name ];
-
+  
   //  Station *estacion=[[Station alloc]init];
     
    // estacion= [self.arrayForFacebook objectAtIndex:self.stationList.selectedStation];
@@ -98,19 +98,19 @@
     
     float value=self.slider.value;
     if (value==0) {
-       [buttonVolume setBackgroundImage:[UIImage imageNamed:@"muteButton.png"] forState:UIControlStateNormal];
+       [buttonVolume setBackgroundImage:[UIImage imageNamed:@"NoSoundorange.png"] forState:UIControlStateNormal];
     }
     
     if (value>=0.31 && value<0.69) {
-        [buttonVolume setBackgroundImage:[UIImage imageNamed:@"noMuteButton50.png"] forState:UIControlStateNormal];
+        [buttonVolume setBackgroundImage:[UIImage imageNamed:@"mediumSoundorange.png"] forState:UIControlStateNormal];
     }
     
     if (value>0 && value<0.3) {
-        [buttonVolume setBackgroundImage:[UIImage imageNamed:@"noMuteButton30.png"] forState:UIControlStateNormal];
+        [buttonVolume setBackgroundImage:[UIImage imageNamed:@"lowSoundorange.png"] forState:UIControlStateNormal];
     }
     
     if (value>0.7) {
-        [buttonVolume setBackgroundImage:[UIImage imageNamed:@"noMuteButton.png"] forState:UIControlStateNormal];
+        [buttonVolume setBackgroundImage:[UIImage imageNamed:@"fullSoundorange.png"] forState:UIControlStateNormal];
     }
     
     [self.stationList controlVolume:&value];

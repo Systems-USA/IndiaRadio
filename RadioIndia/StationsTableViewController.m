@@ -52,7 +52,7 @@
         query.cachePolicy = kPFCachePolicyNetworkElseCache;      
         
     }
-    [query orderByAscending:@"name"];
+    [query orderByDescending:@"name"];
     return query;
 }
 
@@ -98,8 +98,10 @@
     
  //   NSLog(@"array con stations %@",[[self.arraForStation objectAtIndex:0]name ]);
     NSIndexPath * selectedRow = [self.tableView indexPathForSelectedRow];
+     NSLog(@"seleciconada %@", selectedRow);
     destinationViewController.arraystationList=self.arraForStation;
     self.stationList.selectedStation = (int)selectedRow.row;
+     NSLog(@"seleciconada %ld", (long)self.stationList.selectedStation);
    // NSLog(@"station%d,",self.stationList.selectedStation);
     destinationViewController.stationList = self.stationList;
     destinationViewController.arrayForFacebook=[NSMutableArray arrayWithArray:self.arraForStation];

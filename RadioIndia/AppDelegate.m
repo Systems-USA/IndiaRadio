@@ -25,6 +25,11 @@
     [[AVAudioSession sharedInstance] setActive:YES error:&activationErr];
 
     return YES;
+    
+    
+//Parse: https://www.parse.com/
+//    -User: peperamirez89@hotmail.com
+//    -Password: RadioIndia
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

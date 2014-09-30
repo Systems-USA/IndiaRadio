@@ -311,9 +311,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJe-as-5rU">
-                                <rect key="frame" x="107" y="146" width="106" height="91"/>
+                                <rect key="frame" x="107" y="234" width="106" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="playButton.png">
+                                <state key="normal" image="playorange.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="selected" image="pauseButton.png"/>
@@ -322,9 +322,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-ee-8dH">
-                                <rect key="frame" x="135" y="402" width="50" height="50"/>
+                                <rect key="frame" x="212" y="361" width="28" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="share1.png">
+                                <state key="normal" image="share orange copia.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -332,9 +332,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO5-EW-zyE">
-                                <rect key="frame" x="209" y="245" width="68" height="69"/>
+                                <rect key="frame" x="212" y="245" width="68" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="nextButton.png">
+                                <state key="normal" image="forwardorangeborders copy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -344,7 +344,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCu-Ah-57M">
                                 <rect key="frame" x="41" y="245" width="66" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="fast_back.png">
+                                <state key="normal" image="backorangeborders.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -352,16 +352,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pj7-cg-1iI">
-                                <rect key="frame" x="20" y="345" width="54" height="54"/>
+                                <rect key="frame" x="20" y="406" width="54" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="noMuteButton.png">
+                                <state key="normal" backgroundImage="fullSoundorange.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="selected" image="noMuteButton.png"/>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TYB-dZ-Iif">
-                                <rect key="frame" x="80" y="357" width="220" height="31"/>
+                                <rect key="frame" x="80" y="418" width="220" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.62001026459854014" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="sliderValue:" destination="9mf-9k-dBK" eventType="valueChanged" id="9Jo-qi-i06"/>
                                 </connections>
@@ -374,7 +375,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfo-9N-rel">
-                                <rect key="frame" x="139" y="265" width="42" height="37"/>
+                                <rect key="frame" x="65" y="361" width="42" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="favorite.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -384,10 +385,10 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKC-N1-QKN">
-                                <rect key="frame" x="20" y="94" width="280" height="44"/>
+                                <rect key="frame" x="20" y="161" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="27"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.5094035338391899" blue="0.20262116355664361" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -444,67 +445,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mDv-MK-727" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="668" y="-803"/>
-        </scene>
-        <!--Favorite View Controller - Favorites-->
-        <scene sceneID="y25-YC-5Hu">
-            <objects>
-                <tableViewController id="3QQ-F5-6vw" customClass="FavoriteViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" id="UA1-SX-JwS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.84974888390000003" green="0.84974888390000003" blue="0.84974888390000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="separatorColor" red="0.98039215690000003" green="0.36862745099999999" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavoriteCell" rowHeight="70" id="ERr-v5-wdt" customClass="FavoriteStation">
-                                <rect key="frame" x="0.0" y="22" width="320" height="70"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ERr-v5-wdt" id="FSZ-1L-5X7">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="69"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Station" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0x-RP-tg5">
-                                            <rect key="frame" x="20" y="13" width="160" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="city" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mE-fl-726">
-                                            <rect key="frame" x="20" y="42" width="160" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7j-pC-0fR">
-                                            <rect key="frame" x="201" y="13" width="46" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                        </button>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.84974888390000003" green="0.84974888390000003" blue="0.84974888390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.84974888390000003" green="0.84974888390000003" blue="0.84974888390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <outlet property="lblCity" destination="1mE-fl-726" id="xiT-L4-0jE"/>
-                                    <outlet property="lblName" destination="a0x-RP-tg5" id="4qd-TX-WfO"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="3QQ-F5-6vw" id="qT0-cA-4Da"/>
-                            <outlet property="delegate" destination="3QQ-F5-6vw" id="Fyf-jN-Awz"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Favorites" id="dsb-IX-rmf"/>
-                    <connections>
-                        <segue destination="9mf-9k-dBK" kind="push" identifier="stationsSegue" id="UwZ-4z-DPU"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="03K-he-O6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2105" y="825"/>
         </scene>
         <!--Favorite Table View Controller - Favorites-->
         <scene sceneID="zYo-nI-gei">
@@ -599,17 +539,18 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backorangeborders.png" width="140" height="100"/>
         <image name="cities.png" width="25" height="25"/>
-        <image name="fast_back.png" width="128" height="85"/>
         <image name="favorite.png" width="128" height="128"/>
         <image name="favoriteIcon1.png" width="32" height="32"/>
+        <image name="forwardorangeborders copy.png" width="140" height="100"/>
+        <image name="fullSoundorange.png" width="128" height="128"/>
         <image name="genre.png" width="25" height="25"/>
         <image name="ios7-gray-dots-iphone-hd-wallpaper-iphonewallpaperhi.com-625-320x480.jpg" width="640" height="1136"/>
-        <image name="nextButton.png" width="128" height="85"/>
         <image name="noMuteButton.png" width="128" height="128"/>
         <image name="pauseButton.png" width="128" height="128"/>
-        <image name="playButton.png" width="128" height="128"/>
-        <image name="share1.png" width="93" height="128"/>
+        <image name="playorange.png" width="128" height="128"/>
+        <image name="share orange copia.png" width="96" height="138"/>
         <image name="stations.png" width="25" height="25"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -618,6 +559,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="x4r-0j-DXf"/>
+        <segue reference="zmF-xW-nxa"/>
     </inferredMetricsTieBreakers>
 </document>

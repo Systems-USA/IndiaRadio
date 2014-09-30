@@ -128,6 +128,7 @@ int contadorRealoadTable;
     
     //   NSLog(@"array con stations %@",[[self.arraForStation objectAtIndex:0]name ]);
     NSIndexPath * selectedRow = [self.tableView indexPathForSelectedRow];
+    NSLog(@"seleciconada %@", selectedRow);
     destinationViewController.arraystationList=self.arraForStation;
     self.stationList.selectedStation = (int)selectedRow.row;
     // NSLog(@"station%d,",self.stationList.selectedStation);
