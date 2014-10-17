@@ -46,10 +46,10 @@
     PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
     
     /*[query whereKey:@"ProvZip" containedIn:_userZips];
-    [query whereKey:@"Service" containsString:_service];
-    [query whereKey:@"Type" containsString:_type];*/
+     [query whereKey:@"Service" containsString:_service];
+     [query whereKey:@"Type" containsString:_type];*/
     if ([self.objects count] == 0) {
-        query.cachePolicy = kPFCachePolicyNetworkElseCache;      
+        query.cachePolicy = kPFCachePolicyNetworkElseCache;
         
     }
     [query orderByDescending:@"name"];
@@ -59,7 +59,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object {
     static NSString *CellIdentifier = @"StationCell";
     
-   // NSLog(@"objetos %@",object);
+    // NSLog(@"objetos %@",object);
     
     StationCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -74,10 +74,10 @@
     [self.arraForStation addObject:station];
     cell.lblCity.text = station.city;
     //cell.imgImage.image = [UIImage imageNamed:@"cities.png"];
-
+    
     Station *estacion=[[Station alloc]init];
     estacion= [self.arraForStation objectAtIndex:indexPath.row];
-   
+    
     //Add station to StationList
     [self.stationList addStation:station];
     
@@ -87,7 +87,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-   
+    
     [self performSegueWithIdentifier:@"stationsSegue" sender:self];
     
 }
@@ -96,13 +96,13 @@
 {
     PlayerViewController * destinationViewController = segue.destinationViewController;
     
- //   NSLog(@"array con stations %@",[[self.arraForStation objectAtIndex:0]name ]);
+    //   NSLog(@"array con stations %@",[[self.arraForStation objectAtIndex:0]name ]);
     NSIndexPath * selectedRow = [self.tableView indexPathForSelectedRow];
-     NSLog(@"seleciconada %@", selectedRow);
+    NSLog(@"seleciconada %@", selectedRow);
     destinationViewController.arraystationList=self.arraForStation;
     self.stationList.selectedStation = (int)selectedRow.row;
-     NSLog(@"seleciconada %ld", (long)self.stationList.selectedStation);
-   // NSLog(@"station%d,",self.stationList.selectedStation);
+    NSLog(@"seleciconada %ld", (long)self.stationList.selectedStation);
+    // NSLog(@"station%d,",self.stationList.selectedStation);
     destinationViewController.stationList = self.stationList;
     destinationViewController.arrayForFacebook=[NSMutableArray arrayWithArray:self.arraForStation];
     
@@ -118,14 +118,14 @@
     self.arraForStation=[[NSMutableArray alloc]init];
     self.stationList = [[StationList alloc] init];
     
-
-
-     [self loadObjects];
+    
+    
+    [self loadObjects];
 }
 
 -(void)viewWillDisappear:(BOOL)animated{
     
-   // NSLog(@" estacion %@",self.stationList.stations);
+    // NSLog(@" estacion %@",self.stationList.stations);
     
 }
 
